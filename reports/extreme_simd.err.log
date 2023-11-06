@@ -42,8 +42,8 @@ Transpiling the original circuit with standard settings
 ----- stdout -----
 Transpiling the optimized circuit with trivial mapping onto a chain of qubits
 ----- stdout -----
-Number of operations in the original circuit: 477
-  Breakdown: N(Rz)=196, N(X)=14, N(SX)=74, N(CNOT)=180
+Number of operations in the original circuit: 517
+  Breakdown: N(Rz)=219, N(X)=18, N(SX)=90, N(CNOT)=177
 Number of operations in the optimized circuit: 383
 ------------------
 
