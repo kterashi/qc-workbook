@@ -464,16 +464,17 @@ for circuit, ax in zip(circuits, axs.reshape(-1)):
 回路Iの状態は
 
 $$
-\begin{align}
-R_{y1}\left(-\frac{\pi}{4}\right) C^0_1[X] H_0 \ket{0}_1\ket{0}_0 = & R_{y1}\left(-\frac{\pi}{4}\right) \frac{1}{\sqrt{2}} (\ket{0}_1\ket{0}_0 + \ket{1}_1\ket{1}_0) \\
+\begin{align}0
+R_{y1}\left(-\frac{\pi}{4}\right) C^0_1[X] H_0 \ket{0}_1\ket{0}_0 = & R_{y1}\left(-\frac{\pi}{4}\right) C^0_1[X] \frac{1}{\sqrt{2}} (\ket{0}_1\ket{0}_0 + \ket{0}_1\ket{1}_0) \\
+= & R_{y1}\left(-\frac{\pi}{4}\right) \frac{1}{\sqrt{2}} (\ket{0}_1\ket{0}_0 + \ket{1}_1\ket{1}_0) \\
 = & \frac{1}{\sqrt{2}} \big[(c\ket{0}_1 - s\ket{1}_1)\ket{0}_0 + (s\ket{0}_1 + c\ket{1}_1)\ket{1}_0\big]\\
 = & \frac{1}{\sqrt{2}} (c\ket{00} + s\ket{01} - s\ket{10} + c\ket{11}).
 \end{align}
 $$
 
-簡単のため$c = \cos(\pi/8), s = \sin(\pi/8)$とおきました。
+簡単のため、$c = \cos(\pi/8), s = \sin(\pi/8)$と定義しました。
 
-したがって回路Iでの確率$P^{\rmI}_{l} \, (l=00,01,10,11)$は
+したがって、回路Iでの確率$P^{\rmI}_{l} \, (l=00,01,10,11)$は
 
 $$
 P^{\rmI}_{00} = P^{\rmI}_{11} = \frac{c^2}{2} \\
