@@ -464,7 +464,7 @@ for circuit, ax in zip(circuits, axs.reshape(-1)):
 回路Iの状態は
 
 $$
-\begin{align}0
+\begin{align}
 R_{y1}\left(-\frac{\pi}{4}\right) C^0_1[X] H_0 \ket{0}_1\ket{0}_0 = & R_{y1}\left(-\frac{\pi}{4}\right) C^0_1[X] \frac{1}{\sqrt{2}} (\ket{0}_1\ket{0}_0 + \ket{0}_1\ket{1}_0) \\
 = & R_{y1}\left(-\frac{\pi}{4}\right) \frac{1}{\sqrt{2}} (\ket{0}_1\ket{0}_0 + \ket{1}_1\ket{1}_0) \\
 = & \frac{1}{\sqrt{2}} \big[(c\ket{0}_1 - s\ket{1}_1)\ket{0}_0 + (s\ket{0}_1 + c\ket{1}_1)\ket{1}_0\big]\\
